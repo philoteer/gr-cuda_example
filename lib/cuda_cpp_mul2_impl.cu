@@ -139,7 +139,6 @@ namespace gr {
 			}
 			
 			//clean-up
-			consume_each(noutput_items);
 			return noutput_items;
 
 		}
